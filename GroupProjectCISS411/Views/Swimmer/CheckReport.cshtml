@@ -1,0 +1,18 @@
+﻿@model IEnumerable<GroupProjectCISS411.Models.Enrollment>
+<h3>Swimmer Name: @ViewData["sname"]</h3>
+<table border="1">
+    <tr>
+        <th>Session Title</th>
+        <th>Report</th>
+    </tr>
+    @foreach (var c in Model)
+    {
+        <tr>
+            <td>@c.Session.SessionTitle</td>
+            <td>@Html.DisplayFor(m => c.Report)</td>
+        </tr>
+    }
+</table>
+<p><a asp-action="Indec">Back to swimmer home</a></p>
+<br />
+<p>©2020 - Columbia Coders</p>

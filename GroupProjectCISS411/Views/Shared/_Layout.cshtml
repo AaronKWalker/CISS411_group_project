@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    @if (this.User.Identity.IsAuthenticated)
+    {
+        <div>Hello, @this.User.Identity.Name</div>
+        <form method="post" asp-controller="Account" asp-action="Logout">
+            <input type="submit" value-"Logout" />
+        </form>
+    }
+    @RenderBody()
+</body>
+</html>

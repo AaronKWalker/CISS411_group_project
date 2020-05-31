@@ -1,0 +1,50 @@
+﻿@model IEnumerable<GroupProjectCISS411.Models.Session>
+@{
+    if (Model.Count() < 1)
+    {
+        <p>No session in database yet</p>
+    }
+    else
+    {
+        <h3>All Sessions</h3>
+        <table border="1">
+            <tr>
+                <th>Session ID</th>
+                <th>Session Title</th>
+                <th>Seat Capacity</th>
+                <th>Coach</th>
+                <th>Enroll Course</th>
+            </tr>
+            @foreach (var session in Model)
+            {
+                <tr>
+                    <td>@session.SessionId</td>
+                    <td>@session.SessionTitle</td>
+                    <td>@session.StartDate</td>
+                    <td>@session.EndDate</td>
+                    <td>@session.DailyStartTime</td>
+                    <td>@session.SeatCapacity</td>
+                    <td>@session.Coach.CoachName</td>
+                    <td>
+                        @{
+                            if (session.SeatCapacity < 1)
+                            {
+                                <p>Full class</p>
+                            }
+                            else
+                            {
+                                <a asp-controller="Swimmer"
+                                   asp-action="EnrollSession"
+                                   asp-route-id="@session.SessionId">
+                                    Register
+                                </a>
+                            }
+                        }
+                    </td>
+                </tr>
+            }
+        </table>
+    }
+}
+<br />
+<p>©2020 - Columbia Coders</p>
