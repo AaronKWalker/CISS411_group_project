@@ -49,7 +49,7 @@ using GroupProjectCISS411;
             WriteLiteral("<p>");
             EndContext();
             BeginContext(67, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7c7bbef97f0340ffbaf23e1bb1a83195", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b588eb73cb6847aea2e42bd50ea196d6", async() => {
                 BeginContext(91, 10, true);
                 WriteLiteral("Add a role");
                 EndContext();
