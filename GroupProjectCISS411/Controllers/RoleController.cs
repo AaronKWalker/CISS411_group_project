@@ -59,7 +59,7 @@ namespace GroupProjectCISS411.Controllers
             AdminAddUserRoleViewModel vm = new AdminAddUserRoleViewModel();
             var user = await userManager.FindByIdAsync(id);
             vm.User = user;
-            vm.RoleList = new SelectList(roleDisplay, "Id", "value");
+            vm.RoleList = new SelectList(roleDisplay, "Id", "Value");
             return View(vm);
         }
         [HttpPost]
