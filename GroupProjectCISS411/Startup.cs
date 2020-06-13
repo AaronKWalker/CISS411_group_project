@@ -37,6 +37,7 @@ namespace GroupProjectCISS411
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseAuthentication();
             app.UseMvc(
                 routes =>
                 {
