@@ -1,11 +1,13 @@
 ﻿@model IEnumerable<GroupProjectCISS411.Models.Session>
 @{
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     if (Model.Count() < 1)
     {
         <p>No session in database yet</p>
     }
     else
     {
+        
         <h3>All Sessions</h3>
         <table border="1">
             <tr>
@@ -46,5 +48,3 @@
         </table>
     }
 }
-<br />
-<p>©2020 - Columbia Coders</p>
