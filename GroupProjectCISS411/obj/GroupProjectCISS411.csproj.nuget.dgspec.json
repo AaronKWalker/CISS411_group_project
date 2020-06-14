@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\veron\\Desktop\\ASP\\GroupProjectCISS411\\GroupProjectCISS411.csproj": {}
+    "C:\\Users\\veron\\Desktop\\CISS411_group_project\\GroupProjectCISS411\\GroupProjectCISS411.csproj": {}
   },
   "projects": {
-    "C:\\Users\\veron\\Desktop\\ASP\\GroupProjectCISS411\\GroupProjectCISS411.csproj": {
+    "C:\\Users\\veron\\Desktop\\CISS411_group_project\\GroupProjectCISS411\\GroupProjectCISS411.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\veron\\Desktop\\ASP\\GroupProjectCISS411\\GroupProjectCISS411.csproj",
+        "projectUniqueName": "C:\\Users\\veron\\Desktop\\CISS411_group_project\\GroupProjectCISS411\\GroupProjectCISS411.csproj",
         "projectName": "GroupProjectCISS411",
-        "projectPath": "C:\\Users\\veron\\Desktop\\ASP\\GroupProjectCISS411\\GroupProjectCISS411.csproj",
+        "projectPath": "C:\\Users\\veron\\Desktop\\CISS411_group_project\\GroupProjectCISS411\\GroupProjectCISS411.csproj",
         "packagesPath": "C:\\Users\\veron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\veron\\Desktop\\ASP\\GroupProjectCISS411\\obj\\",
+        "outputPath": "C:\\Users\\veron\\Desktop\\CISS411_group_project\\GroupProjectCISS411\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\veron\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,7 +44,7 @@
             },
             "Microsoft.AspNetCore.All": {
               "target": "Package",
-              "version": "[2.1.1, )"
+              "version": "[2.1.4, )"
             },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",

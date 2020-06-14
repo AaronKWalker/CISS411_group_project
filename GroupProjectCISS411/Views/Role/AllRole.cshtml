@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityRole>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <p><a asp-action="AddRole">Add a role</a></p>
 @{
     if (Model.Count() < 1)
@@ -19,7 +20,5 @@
                 </tr>
             }
         </table>
-        <br />
-        <p>©2020 - Columbia Coders</p>
     }
 }

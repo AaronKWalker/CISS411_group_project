@@ -1,4 +1,5 @@
 ﻿@model List<GroupProjectCISS411.Models.Enrollment>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <h2>Enter Swimmer Reports</h2>
 <h3>Session: @Model[0].Session.SessionTitle</h3>
 <form asp-controller="Coach" asp-action="PostReport" method="post">
@@ -23,5 +24,3 @@
     </table>
     <input type="submit" value="Submit" />
 </form>
-<br />
-<p>©2020 - Columbia Coders</p>
