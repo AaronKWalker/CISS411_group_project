@@ -33,7 +33,7 @@ namespace GroupProjectCISS411.Controllers
         public IActionResult AllRole()
         {
             var roles = roleManager.Roles.ToList();
-            return View();
+            return View(roles);
         }
         public IActionResult AddRole()
         {

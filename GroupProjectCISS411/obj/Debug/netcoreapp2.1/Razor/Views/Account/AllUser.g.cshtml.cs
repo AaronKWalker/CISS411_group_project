@@ -51,7 +51,7 @@ using GroupProjectCISS411;
             WriteLiteral("    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n<p>");
             EndContext();
             BeginContext(145, 39, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20a97bfcce464be5a6aa5fb1b2baf8bf", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8948b14f495d4e8eabc2e387e71d48cc", async() => {
                 BeginContext(170, 10, true);
                 WriteLiteral("Add a user");
                 EndContext();
@@ -112,7 +112,7 @@ using GroupProjectCISS411;
             WriteLiteral("</td>\r\n                    <td>");
             EndContext();
             BeginContext(607, 144, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d9acb0a45a704f58ba6999ff1caa7279", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "85b2e299114346ffb0d077dba95a27d8", async() => {
                 BeginContext(737, 10, true);
                 WriteLiteral("Add a role");
                 EndContext();

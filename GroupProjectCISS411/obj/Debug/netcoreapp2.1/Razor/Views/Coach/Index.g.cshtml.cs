@@ -51,7 +51,7 @@ using GroupProjectCISS411;
             WriteLiteral("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n<h2>Coach Home</h2>\r\n<p>");
             EndContext();
             BeginContext(98, 42, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dee21d07025e4dd8b5c99564bfbffdc7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ad3caa8718a34d698dde8d89e465b733", async() => {
                 BeginContext(125, 11, true);
                 WriteLiteral("Add Profile");
                 EndContext();
@@ -73,7 +73,7 @@ using GroupProjectCISS411;
             WriteLiteral("</p>\r\n<p>");
             EndContext();
             BeginContext(149, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2be1d9f21e1049cdb8b336099bddf5da", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ebb35946af4e43a786abe743533eefbd", async() => {
                 BeginContext(176, 13, true);
                 WriteLiteral("Add a session");
                 EndContext();
@@ -95,7 +95,7 @@ using GroupProjectCISS411;
             WriteLiteral("</p>\r\n<p>");
             EndContext();
             BeginContext(202, 72, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72f94dc579ad4825b12952ae429fc80f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "909fcd5dead646268f7040cf3941770c", async() => {
                 BeginContext(233, 37, true);
                 WriteLiteral("Write a progress report for a session");
                 EndContext();

@@ -51,7 +51,7 @@ using GroupProjectCISS411;
             WriteLiteral("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n<h2>Swimmer Home</h2>\r\n<p>");
             EndContext();
             BeginContext(100, 42, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b9735ad92d0b49f6af1e88657224277c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c776f8680bc94487a8cacca5246181e7", async() => {
                 BeginContext(127, 11, true);
                 WriteLiteral("Add Profile");
                 EndContext();
@@ -73,7 +73,7 @@ using GroupProjectCISS411;
             WriteLiteral("</p>\r\n<p>");
             EndContext();
             BeginContext(151, 53, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8eb24408161f415da4e2e2921ea21184", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "819af57a69494b6596023e88f3afe1b7", async() => {
                 BeginContext(178, 22, true);
                 WriteLiteral("Register for a session");
                 EndContext();
@@ -95,7 +95,7 @@ using GroupProjectCISS411;
             WriteLiteral("</p>\r\n<p>");
             EndContext();
             BeginContext(213, 55, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "034073c6a960480ab991bd0309193420", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aebad8f4244843b59b57a99a4b18ad7b", async() => {
                 BeginContext(241, 23, true);
                 WriteLiteral("Check a progress report");
                 EndContext();
