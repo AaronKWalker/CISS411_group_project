@@ -120,3 +120,47 @@ C:\Users\aaron\Dropbox\College\CISS-411\repos\14june\CISS411_group_project\Group
 C:\Users\aaron\Dropbox\College\CISS-411\repos\14june\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.dll
 C:\Users\aaron\Dropbox\College\CISS-411\repos\14june\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.pdb
 C:\Users\aaron\Dropbox\College\CISS-411\repos\14june\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.csproj.CopyComplete
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\bin\Debug\netcoreapp2.1\GroupProjectCISS411.deps.json
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\bin\Debug\netcoreapp2.1\GroupProjectCISS411.runtimeconfig.json
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\bin\Debug\netcoreapp2.1\GroupProjectCISS411.runtimeconfig.dev.json
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\bin\Debug\netcoreapp2.1\GroupProjectCISS411.dll
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\bin\Debug\netcoreapp2.1\GroupProjectCISS411.pdb
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\bin\Debug\netcoreapp2.1\GroupProjectCISS411.Views.dll
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\bin\Debug\netcoreapp2.1\GroupProjectCISS411.Views.pdb
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.csprojAssemblyReference.cache
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.csproj.CoreCompileInputs.cache
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.RazorAssemblyInfo.cache
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.RazorAssemblyInfo.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.AssemblyInfoInputs.cache
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.AssemblyInfo.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.TagHelpers.input.cache
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.TagHelpers.output.cache
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.RazorCoreGenerate.cache
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Account\AllUser.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Coach\AddProfile.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Coach\AddSession.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Coach\Index.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Coach\PostReport.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Coach\SessionByCoach.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Role\AddRole.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Role\AddUserRole.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Role\AllRole.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Swimmer\AddProfile.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Swimmer\AllSession.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Swimmer\CheckReport.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Swimmer\Index.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.RazorTargetAssemblyInfo.cache
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.RazorTargetAssemblyInfo.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.Views.pdb
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.dll
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.pdb
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.csproj.CopyComplete
