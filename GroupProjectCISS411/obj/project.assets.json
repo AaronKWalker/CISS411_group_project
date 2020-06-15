@@ -14303,23 +14303,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aaron\\.nuget\\packages\\": {},
+    "C:\\Users\\WalkeA03\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aaron\\Dropbox\\College\\CISS-411\\repos\\14june\\CISS411_group_project\\GroupProjectCISS411\\GroupProjectCISS411.csproj",
+      "projectUniqueName": "C:\\Users\\WalkeA03\\Documents\\school repo\\CISS411_group_project\\GroupProjectCISS411\\GroupProjectCISS411.csproj",
       "projectName": "GroupProjectCISS411",
-      "projectPath": "C:\\Users\\aaron\\Dropbox\\College\\CISS-411\\repos\\14june\\CISS411_group_project\\GroupProjectCISS411\\GroupProjectCISS411.csproj",
-      "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aaron\\Dropbox\\College\\CISS-411\\repos\\14june\\CISS411_group_project\\GroupProjectCISS411\\obj\\",
+      "projectPath": "C:\\Users\\WalkeA03\\Documents\\school repo\\CISS411_group_project\\GroupProjectCISS411\\GroupProjectCISS411.csproj",
+      "packagesPath": "C:\\Users\\WalkeA03\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\WalkeA03\\Documents\\school repo\\CISS411_group_project\\GroupProjectCISS411\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\WalkeA03\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
