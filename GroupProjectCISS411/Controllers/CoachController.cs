@@ -12,7 +12,7 @@ using System.Security.Claims;
 
 namespace GroupProjectCISS411.Controllers
 {
-    [Authorize(Roles ="Coach")]
+    [Authorize(Roles ="Coach, Admin")]
     public class CoachController : Controller
     {
         // GET: /<controller>/

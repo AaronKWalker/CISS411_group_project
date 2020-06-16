@@ -164,3 +164,5 @@ C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS41
 C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.dll
 C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.pdb
 C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\GroupProjectCISS411.csproj.CopyComplete
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AllLesson.g.cshtml.cs
+C:\Users\WalkeA03\Documents\school repo\CISS411_group_project\GroupProjectCISS411\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddLesson.g.cshtml.cs

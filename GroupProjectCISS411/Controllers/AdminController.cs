@@ -24,5 +24,13 @@ namespace GroupProjectCISS411.Controllers
         {
             return View();
         }
+        public IActionResult AllLesson()
+        {
+            return View();
+        }
+        public IActionResult AddLesson()
+        {
+            return View();
+        }
     }
 }

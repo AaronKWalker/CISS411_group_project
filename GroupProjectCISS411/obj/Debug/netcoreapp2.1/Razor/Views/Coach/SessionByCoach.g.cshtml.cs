@@ -161,7 +161,7 @@ Write(Model.FirstOrDefault().Coach.CoachName);
             WriteLiteral("</td>\r\n                    <td>\r\n                        ");
             EndContext();
             BeginContext(1136, 155, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ebe196c8bb8444fea5da44abf1247692", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb42a9e8356744a6a0e5f54740eb1fd4", async() => {
                 BeginContext(1276, 11, true);
                 WriteLiteral("Post report");
                 EndContext();
@@ -214,7 +214,7 @@ Write(Model.FirstOrDefault().Coach.CoachName);
             WriteLiteral("<p>");
             EndContext();
             BeginContext(1389, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72d5f4b3bf8a478c9764324f7c255605", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0b00a5cd8a574066a58ade75f7d62850", async() => {
                 BeginContext(1411, 18, true);
                 WriteLiteral("Back to coach home");
                 EndContext();
