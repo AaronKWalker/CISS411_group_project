@@ -49,7 +49,7 @@ using GroupProjectCISS411;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(25, 184, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cba8824548ac4ba596d70dd4a77225f3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eee5accc20a040d38d826beb8c046a47", async() => {
                 BeginContext(31, 121, true);
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
                 EndContext();
@@ -79,7 +79,7 @@ using GroupProjectCISS411;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(211, 224, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ee69f987aa4a43f79bd6b7313d19f87e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9b655ce8121a4591a23f431a633e2e01", async() => {
                 BeginContext(217, 211, true);
                 WriteLiteral("\r\n    <div id=\"contactInfo\">\r\n        <h2>Contact Information</h2>\r\n        <p>The Smiths</p>\r\n        <p>1232 Apple Lane</p>\r\n        <p>Columbia, Missouri, 65201</p>\r\n        <p>(573)882-1902</p>\r\n    </div>\r\n");
                 EndContext();

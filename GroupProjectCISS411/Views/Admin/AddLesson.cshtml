@@ -1,0 +1,14 @@
+﻿@model GroupProjectCISS411.Models.Lesson
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<form asp-controller="Admin" asp-action="AddLesson" method="post">
+    <label asp-for="LessonTitle"></label>
+    <input asp-for="LessonTitle" />
+    <br />
+    <label asp-for="SkillLevel"></label>
+    <input asp-for="SkillLevel" />
+    <br />
+    <label asp-for="Tuition"></label>
+    <input asp-for="Tuition" />
+    <br />
+    <button type="submit">Add Lesson</button>
+</form> 

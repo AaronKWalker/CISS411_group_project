@@ -10,7 +10,7 @@ using System.Security.Claims;
 
 namespace GroupProjectCISS411.Controllers
 {
-    [Authorize(Roles ="Swimmer")]
+    [Authorize(Roles ="Swimmer, Admin")]
     public class SwimmerController : Controller
     {
         private readonly ApplicationDbContext db;
