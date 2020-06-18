@@ -1,6 +1,6 @@
 ﻿@model GroupProjectCISS411.ViewModels.AdminAddUserRoleViewModel
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<p>Pick a role for @Model.User.UserName</p>
+<p class="pageHeader">Pick a role for @Model.User.UserName</p>
 <form asp-controller="Role" asp-action="AddUserRole" method="post">
     <div asp-validation-summary="All"></div>
     <input asp-for="@Model.User.Id" type="hidden" />
