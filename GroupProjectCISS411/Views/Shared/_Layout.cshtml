@@ -5,17 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] Smith Swimming School</title>
     <style>
-        footer {
-            color:darkslategray;
+        .systemHeader {
+            font-size: 54px;
+            color: royalblue;
+            text-shadow: 1px 1px black;
+            text-decoration-line: underline;
+            margin-block-start: 0em;
+            margin-block-end: 0.25em;
         }
+
+        #userName {
+            background-color: mistyrose;
+            font-weight: bold;
+            border: thin solid black;
+            padding: 3px;
+        }
+
+        footer {
+            color: darkslategray;
+        }
+
         #welcome {
             font-size: x-large;
         }
-        #contactInfo h2{
+
+        .pageHeader {
             font-size: xx-large;
         }
-        #about h2{
-            font-size: xx-large;
+        #logOutButton {
+            color: darkred;
+            font-weight: bolder;
+        }
+
+        #coachName {
+            font-style: italic;
         }
     </style>
     <environment include="Development">
@@ -30,25 +53,21 @@
     </environment>
 </head>
 <body>
-    @if (this.User.Identity.IsAuthenticated)
-    {
-        <div>Hello, @this.User.Identity.Name</div>
-        <form method="post" asp-controller="Account" asp-action="Logout">
-            <input type="submit" value="Logout" />
-        </form>
-    }
+    <h3 class="systemHeader">Smith Swimming School</h3>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-
-                <h3>Smith Swimming School</h3>
+                <!--<h3 class="systemHeader">Smith Swimming School</h3>-->
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
+                <a asp-controller="Home" asp-action="Index">&nbsp; Home &nbsp;</a>
+                <a asp-controller="Home" asp-action="About">&nbsp; About &nbsp;</a>
+                <a asp-controller="Home" asp-action="Contact">&nbsp; Contact &nbsp;</a>
+                <!--<ul class="nav navbar-nav">
                     <li><a asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
-                </ul>
+                </ul>-->
             </div>
         </div>
     </nav>
@@ -57,6 +76,14 @@
         @RenderBody()
         <hr />
         <footer>
+            @if (this.User.Identity.IsAuthenticated)
+            {
+                <div><span id="userName">@this.User.Identity.Name</span></div>
+                <br />
+                <form method="post" asp-controller="Account" asp-action="Logout">
+                    <input id="logOutButton" type="submit" value="⮌ Logout" />
+                </form>
+            }
             <p>&copy; 2020 Columbia Coders</p>
         </footer>
     </div>
