@@ -9,22 +9,24 @@
     else
     {
         <h3 class="pageHeader">All Lessons</h3>
-        <table border="1">
-            <tr>
-                <th>Lesson ID</th>
-                <th>Lesson Title</th>
-                <th>Skill Level</th>
-                <th>Tuition</th>
-            </tr>
-            @foreach (var lesson in Model)
-            {
+        <div class="table-responsive">
+            <table class="table-responsive table-striped table-hover">
                 <tr>
-                    <td>@lesson.LessonId</td>
-                    <td>@lesson.LessonTitle</td>
-                    <td>@lesson.SkillLevel</td>
-                    <td>$@lesson.Tuition</td>
+                    <th>Lesson ID</th>
+                    <th>Lesson Title</th>
+                    <th>Skill Level</th>
+                    <th>Tuition</th>
                 </tr>
-            }
-        </table>
+                @foreach (var lesson in Model)
+                {
+                    <tr>
+                        <td>@lesson.LessonId</td>
+                        <td>@lesson.LessonTitle</td>
+                        <td>@lesson.SkillLevel</td>
+                        <td>$@lesson.Tuition</td>
+                    </tr>
+                }
+            </table>
+        </div>
     }
 }

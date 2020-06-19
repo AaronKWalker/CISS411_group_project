@@ -1,14 +1,18 @@
 ﻿@model GroupProjectCISS411.ViewModels.AdminAddUserRoleViewModel
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <p class="pageHeader">Pick a role for @Model.User.UserName</p>
-<form asp-controller="Role" asp-action="AddUserRole" method="post">
-    <div asp-validation-summary="All"></div>
-    <input asp-for="@Model.User.Id" type="hidden" />
-    <label asp-for="Role"></label>
-    <select asp-for="Role"
-            asp-items="@Model.RoleList"></select>
+<form asp-controller="Role" asp-action="AddUserRole" method="post" class="form horizontal">
+    <fieldset class="form-group">
+        <div asp-validation-summary="All"></div>
+        <input asp-for="@Model.User.Id" type="hidden" />
+        <label asp-for="Role" class="control-label col-xs-2"></label>
+        <div class="col-xs-6">
+            <select asp-for="Role"
+                    asp-items="@Model.RoleList" class="form-control"></select>
+        </div>
+    </fieldset>
     <br />
-    <button type="submit">Add Role</button>
+    <button class="btn btn-primary" type="submit">Add Role</button>
 </form>
 <p>
     <a asp-controller="Account" asp-action="AllUser">

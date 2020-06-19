@@ -161,7 +161,7 @@ using GroupProjectCISS411;
             WriteLiteral("</td>\r\n                    <td>\r\n                        ");
             EndContext();
             BeginContext(1170, 155, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2befd87bba544d02a85c06245294174c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b347375783cc44d8ac7d6afb8151a4c9", async() => {
                 BeginContext(1310, 11, true);
                 WriteLiteral("Post report");
                 EndContext();
@@ -214,7 +214,7 @@ using GroupProjectCISS411;
             WriteLiteral("<p>");
             EndContext();
             BeginContext(1423, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "35f6b6fa45114552b1a7ef0e3d63d359", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9108f33e894c4b40a6d12f5d2a5c60e2", async() => {
                 BeginContext(1445, 18, true);
                 WriteLiteral("Back to coach home");
                 EndContext();

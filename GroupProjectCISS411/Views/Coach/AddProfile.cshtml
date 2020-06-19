@@ -1,15 +1,25 @@
 ﻿@model GroupProjectCISS411.Models.Coach
 <h2 class="pageHeader">Add Your Profile</h2>
-<form asp-action="AddProfile">
-<input asp-for="@Model.UserId" type="hidden" />
-<label asp-for="CoachName"></label>
-<input asp-for="CoachName" />
-<br />
-<label asp-for="CoachPhone"></label>
-<input asp-for="CoachPhone" />
-<br />
-<button type="submit">Add Profile</button>
+<form asp-action="AddProfile" class="form-horizontal">
+    <input asp-for="@Model.UserId" type="hidden" />
+    <fieldset class="form-group">
+        <label asp-for="CoachName" class="control-label col-xs-2"></label>
+        <div class="col-xs-6">
+            <input asp-for="CoachName" class="form-control" />
+        </div>
+    </fieldset>
+    <fieldset class="form-group">
+        <br />
+        <label asp-for="CoachPhone" class="control-label col-xs-2"></label>
+        <div class="col-xs-6">
+            <input asp-for="CoachPhone" class="form-control"/>
+        </div>
+    </fieldset>
+    <div class="form-group">
+        <div class="col-xs-offset-2 col-xs-10">
+            <br />
+            <button class="btn btn-primary" type="submit">Add Profile</button>
+            <p><a asp-action="Index">Back to coach home</a></p>
+        </div>
+    </div>
 </form>
-<p><a asp-action="Index">Back to coach home</a></p>
-<br />
-<p>©2020 - Columbia Coders</p>

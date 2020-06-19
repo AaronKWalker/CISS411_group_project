@@ -1,15 +1,31 @@
 ﻿@model GroupProjectCISS411.Models.Lesson
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<h3 class="pageHeader">Add Lesson</h3>
-<form asp-controller="Admin" asp-action="AddLesson" method="post">
-    <label asp-for="LessonTitle"></label>
-    <input asp-for="LessonTitle" />
-    <br />
-    <label asp-for="SkillLevel"></label>
-    <input asp-for="SkillLevel" />
-    <br />
-    <label asp-for="Tuition"></label>
-    <input asp-for="Tuition" />
-    <br />
-    <button type="submit">Add Lesson</button>
+<h3 class="text-info lead">Add Lesson</h3>
+<form asp-controller="Admin" asp-action="AddLesson" method="post" class="form-horizontal">
+    <fieldset class="form-group">
+        <label asp-for="LessonTitle" class="control-label col-xs-2"></label>
+        <div class="col-xs-6">
+            <input asp-for="LessonTitle" class="form-control" />
+        </div>
+    </fieldset>
+    <fieldset class="form-group">
+        <br />
+        <label asp-for="SkillLevel" class="control-label col-xs-2"></label>
+        <div class="col-xs-6">
+            <input asp-for="SkillLevel" class="form-control" />
+        </div>
+    </fieldset>
+    <fieldset class="form-group">
+        <br />
+        <label asp-for="Tuition" class="control-label col-xs-2"></label>
+        <div class="col-xs-6">
+            <input asp-for="Tuition" class="form-control" />
+        </div>
+    </fieldset>
+    <div class="form-group">
+        <div class="col-xs-offset-2 col-xs-10">
+            <br />
+            <button class="btn btn-primary" type="submit">Add Lesson</button>
+        </div>
+    </div>
 </form> 

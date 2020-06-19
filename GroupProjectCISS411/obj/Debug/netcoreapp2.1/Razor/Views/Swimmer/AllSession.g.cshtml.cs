@@ -178,7 +178,7 @@ using GroupProjectCISS411;
             WriteLiteral("                                ");
             EndContext();
             BeginContext(1317, 245, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1bcb6b2883b14caeb726df584c7624d6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1af2c98a7838495db915b41a72b0e403", async() => {
                 BeginContext(1478, 80, true);
                 WriteLiteral("\r\n                                    Register\r\n                                ");
                 EndContext();

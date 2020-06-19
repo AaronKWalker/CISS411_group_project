@@ -9,13 +9,16 @@
     {
         
         <h3 class="pageHeader">All Sessions</h3>
-        <table border="1">
+        <table class="table">
             <tr>
                 <th>Session ID</th>
                 <th>Session Title</th>
+                <th>Stard Date</th>
+                <th>End Date</th>
+                <th>Start Time</th>
                 <th>Seat Capacity</th>
-                <th>Coach</th>
-                <th>Enroll Course</th>
+                <th>Coach Name</th>
+                <th>Action</th>
             </tr>
             @foreach (var session in Model)
             {

@@ -50,7 +50,7 @@ using GroupProjectCISS411;
             WriteLiteral("    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n<p>");
             EndContext();
             BeginContext(136, 65, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "95869b987aef438a9c3d6a01e7c3d959", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "774b189e02774a9ba5ebe1674e6a58d6", async() => {
                 BeginContext(185, 12, true);
                 WriteLiteral("Add a Lesson");
                 EndContext();
