@@ -1,17 +1,31 @@
 ﻿@model GroupProjectCISS411.ViewModels.AccountLoginViewModel
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <h2 class="pageHeader">User Login</h2>
-<form asp-action="Login" method="post">
-    <div asp-validation-summary="All"></div>
-    <label asp-for="Email"></label>
-    <input asp-for="Email" />
-    <span asp-validation-for="Email"></span>
-    <br />
-    <label asp-for="Password"></label>
-    <input asp-for="Password" />
-    <span asp-validation-for="Password"></span>
-    <br />
-    <button type="submit">Log In</button>
+<form asp-action="Login" method="post"
+      class="form horizontal">
+    <fieldset class="form-group">
+        <div asp-validation-summary="All"></div>
+        <label asp-for="Email"
+               class="control-label col-xs-2"></label>
+        <div class="col-xs-10">
+        <input asp-for="Email" class="form-control"/>
+        <span asp-validation-for="Email"></span>
+        </div>
+    </fieldset>
+    <fieldset class="form-group">
+        <br />
+        <label asp-for="Password" class="control-label col-xs-2"></label>
+        <div class="col-xs-10">
+        <input asp-for="Password" class="form-control" />
+        <span asp-validation-for="Password"></span>
+        <br />
+        </div>
+    </fieldset>
+    <div class="form-group">
+        <div class="col-xs-offset-2 col-xs-10">
+            <button class="btn btn-primary" type="submit">Log In</button>
+        </div>
+    </div>
 </form>
 <br />
 <p>New Swimmer?<a asp-action="Register"> Register here</a></p>
